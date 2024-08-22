@@ -18,6 +18,9 @@ describe("FizzBuzz" , () => {
         expect(generarFizzBuzz(6)).toEqual("Fizz");
         expect(generarFizzBuzz(9)).toEqual("Fizz")
     })
+     it("Generar para 5",() =>{
+        expect(generarFizzBuzz(5)).toEqual("Buzz");
+     })
 
 });
 
